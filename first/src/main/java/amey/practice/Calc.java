@@ -6,4 +6,5 @@ public interface Calc {
     long sub(long a, long b);
     long multiply(long a, long b);
     long divide(long a, long b);
+    long addSub(long a, long b);
 }
