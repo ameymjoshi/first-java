@@ -48,4 +48,9 @@ public class CalcImplTest {
         assertNotEquals(-5, calc.multiply(15, 5));
         assertNotEquals(2, calc.multiply(1, 0));
     }
+
+    @Test
+    public void addSubTest(){
+        assertEquals(5, calc.addSub(5, 5));
+    }
 }

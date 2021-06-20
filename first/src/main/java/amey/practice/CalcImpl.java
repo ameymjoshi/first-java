@@ -27,5 +27,10 @@ public class CalcImpl implements Calc{
         }
        
     }
+
+    @Override
+    public long addSub(long a, long b) {
+        return ((a+b)-a);
+    }
     
 }
