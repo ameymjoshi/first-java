@@ -14,5 +14,6 @@ public class Puzzle1Test {
         assertEquals("123", Puzzle1.replaceVowel("aeiou123uoiea"));
         assertEquals("112233", Puzzle1.replaceVowel("11aeiou22aeiou33"));
         assertEquals("Mry hd  lttl lmb", Puzzle1.replaceVowel("Mary had a little lamb"));
+        assertEquals("MY", Puzzle1.replaceVowel("AMEY"));
     }
 }
