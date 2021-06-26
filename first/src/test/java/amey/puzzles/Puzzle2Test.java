@@ -18,6 +18,7 @@ public class Puzzle2Test {
         assertEquals(false, puzzle.isIsogram("Elephant"));
         assertEquals(false, puzzle.isIsogram("AbaBcaCdcD"));
         assertEquals(false, puzzle.isIsogram("suhas"));
+        assertEquals(false, puzzle.isIsogram("suhas"));
     }
     
 }
